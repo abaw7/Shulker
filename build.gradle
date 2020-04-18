@@ -25,6 +25,10 @@ apply plugin: "checkstyle"
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
+jar {
+    archiveName = rootProject.name + '.jar'
+}
+
 group 'me.abaw7'
 version '1.0.0'
 
